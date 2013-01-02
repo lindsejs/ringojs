@@ -18,23 +18,16 @@ For more information, visit the RingoJS web site: <http://ringojs.org/>
 Building RingoJS
 ----------------
 
-Ringo requires a recent version of [Java]. It uses Apache [Ant] as build tool
-and [Ivy] for managing dependencies.
+Ringo requires a recent version of [Java]. It uses Apache [Ant] as a build tool.
 
 [Java]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
 [Ant]: http://ant.apache.org/
-[Ivy]: http://ant.apache.org/ivy/
 
 If you have these installed, building Ringo is straightforward:
 
 Check out Ringo using Git:
 
     git clone git://github.com/ringo/ringojs.git
-
-Change to the ringojs directory and run the ant `update` task to fetch
-dependencies:
-
-    ant update
 
 Then run the `jar` task to compile the code and build the jar file:
 
