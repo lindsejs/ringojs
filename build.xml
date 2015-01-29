@@ -57,7 +57,7 @@
     <target name="update">
         <ivy:retrieve type="jar" sync="true"
             pattern="${ivy.lib.dir}/ivy/[originalname].[ext]"/>
-        <get src="http://repo.typesafe.com/typesafe/sonatype-snapshots-cache/org/mozilla/rhino/1.7R5-SNAPSHOT/rhino-1.7R5-20150129.014838-6.jar"
+        <get src="http://repo.typesafe.com/typesafe/sonatype-snapshots-cache/org/mozilla/rhino/1.7R5-SNAPSHOT/rhino-1.7R5-20120629.144839-4.jar"
              dest="lib/ivy/rhino-1.7R5-SNAPSHOT.jar" usetimestamp="true"/>
     </target>
 
