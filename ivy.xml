@@ -2,7 +2,7 @@
     <info organisation="org.ringojs" module="ringojs"/>
     <dependencies>
         <!-- rhino - disabled until we get 1.7R5 rhino release into maven central -->
-        <!-- dependency org="org.mozilla" name="rhino" rev="1.7R4"/-->
+        <dependency org="org.mozilla" name="rhino" rev="1.7R5"/>
         <!-- jetty -->
         <dependency org="org.eclipse.jetty" name="jetty-server" rev="7.5.+"/>
         <dependency org="org.eclipse.jetty" name="jetty-servlet" rev="7.5.+"/>
